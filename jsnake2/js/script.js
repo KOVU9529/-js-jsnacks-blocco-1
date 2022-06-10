@@ -1,6 +1,6 @@
 /*Chiedi un numero di 4 cifre all’utente nel prompt
  e calcola la somma di tutte le cifre che compongono il numero.*/
- const myNumber= prompt('Dimmi un numero');
+ const myNumber= prompt('Dimmi un numero di 4 cifre');
  console.log(myNumber);
 
  //imposto la variabile della somma 

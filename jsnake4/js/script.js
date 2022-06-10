@@ -22,8 +22,8 @@ for(let i=0; i<6; i++){
     //Imposto le condizioni per l'inserimento numerico nell'array
 
     if(answer % 2 === 0){
-        array.push(answer);
     } else{
+        array.push(answer);
     }
 }
 

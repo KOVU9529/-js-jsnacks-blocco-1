@@ -16,11 +16,17 @@ for (let i=0; i < arrayNumbers.length; i++){
 
    const result=arrayNumbers[i];
 
+let divId;
 // imposto le condizioni
    
    if( result % 2 === 0){
-      document.getElementById('green').innerHTML +=' '+ result;
+      //document.getElementById('green').innerHTML +=' '+ result;
+      divId='green';
    }else {
-      document.getElementById('red').innerHTML += ' '+ result;
+      //document.getElementById('red').innerHTML += ' '+ result;
+      divId='red';
    }
+   document.getElementById(divId).innerHTML += ' '+ result;
+
 }
+
